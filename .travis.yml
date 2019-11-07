@@ -1,0 +1,11 @@
+language: java
+jdk:
+  - oraclejdk9
+services:
+  - postgresql
+before_script:
+  - export TZ=Europe/Moscow
+  - psql -U postgres -f database/init.sql
+branches:
+  only:
+    - develop
