@@ -6,6 +6,7 @@ services:
 before_script:
   - export TZ=Europe/Moscow
   - psql -U postgres -f database/init.sql
+script: ./gradlew clean build
 branches:
   only:
     - develop
