@@ -14,4 +14,7 @@ deploy:
   provider: heroku
   api_key:
     secure: hpw4NM7Wf+rOmOPilB7aSDjt8gOGPynOnabNqeurTisQth6xrg5ByeUY9yjY+o0V31cljBDs+dzKouPRD75qV1VzYfSF+OUvomdtMB25uGbAXMSdIC+4Iz02FRVTbo3IagmRRQ9XP31Jidi0OKEnXAfUNUpteWYRBq/XluUD88xqV4wLIqIy4VWGStp+i8CEiJVRWbaUilFA4Ljjr5wwK8c3HM2QW2mAuIoE9oXxl+aaKA7RwY8R8DRiYF0gmi3VVFpqNOGJwXhbwAl4vSSOVtReX4FEN4R4zNvYkvAw92QJcTCiytqggU5jCrmAfjGbtZ9HTHRRn/jor1dI/5eYkzcAG88HJwfEmTRnyrHtnBMvcBpyChFJfpiGTto4Tkm2zUxAZrJgW6at4hyLCBbaODKNviz+Vq1/7BQxUTPkQ70dCHGBCWCN8pippkQXAN6PqU2aEXBDi3aylrwskn5C5EbwLWWlpCwvVvLgiipDUspFR/A2hwyWn0DkBKVKqwafgneN0xtIdVoMpdj5ASJreqJE3qc7BaxFy/yXH+IgogdlG0vH3TSM7iMJtFNTn9zsO3Wuj4CEKHHKU3UY3gszPd8cyPpwCwuZMOBbiZj60nnYgYuYibSoOOLWjzK86GlcPdyyeKjy2/YWD8D+mumEuSOG2UZsogaJ3AzKWag3vUA=
-    app: rsoi01
+   app: rsoi01
+   branches:
+    only:
+      - develop
