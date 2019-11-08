@@ -48,8 +48,8 @@ public class NoteServiceImpl implements NoteService {
             throw new NoSuchUserException(in.getUserId());
         User user = optional.get();
         Note note = new Note(optional.get(), in.getTitle(), in.getText());
-        user.getNotes().add(note);
         Note save = noteRepository.save(note);
+        user.getNotes().add(save);
         return new NoteOut(
                 save.getId().toString(),
                 user.getId().toString(),
