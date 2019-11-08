@@ -14,8 +14,6 @@ deploy:
   provider: heroku
   api_key:
     secure: 382bcbe0-a0e3-4ab1-94f9-e11580c80127
-   app: rsoi01
-   on:
-      branches:
-        only:
-        - develop
+  app: rsoi
+  on:
+      branch: develop
